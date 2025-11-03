@@ -8,9 +8,9 @@ export default function HeroWindow(){
       <div className="flex items-center gap-6">
         <div style={{width:160}}>
           <img
-          src={`${import.meta.env.BASE_URL}profile.jpg`}
-          alt="profile"
-          className="w-20 h-20 rounded-full"
+            src={`${import.meta.env.BASE_URL}profile.jpg`}
+            alt="profile"
+            className="w-28 h-28 rounded-full object-cover border-2 border-neutral-700 shadow-md"
           />
         </div>
         <div>

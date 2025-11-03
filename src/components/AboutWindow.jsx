@@ -8,7 +8,7 @@ export default function AboutWindow(){
         <img
           src={`${import.meta.env.BASE_URL}profile.jpg`}
           alt="profile"
-          className="w-20 h-20 rounded-full"
+          className="w-28 h-28 rounded-full object-cover border-2 border-neutral-700 shadow-md"
         />
         <div>
           <div className="text-lg font-medium">Akshay S</div>
