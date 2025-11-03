@@ -12,7 +12,7 @@ export default function AboutWindow(){
         />
         <div>
           <div className="text-lg font-medium">Akshay S</div>
-          <div className="text-sm text-gray-400 mt-2">Hey! I’m Akshay, a sophomore at NIT Trichy exploring Machine Learning and AI. I’m really curious about how things work under the hood and enjoy diving into research—especially in NLP right now. I’m always open to research internships or collaborations where I can learn, experiment, and build something meaningful.</div>
+          <div className="text-sm text-gray-400 mt-2">Hey! I'm Akshay, a sophomore at NIT Trichy exploring Machine Learning and AI. I'm really interested in understanding and experimenting with different architectures and models, along with their real-world applications. I'm always open to research internships, collaborations, and projects that let me learn, experiment, and contribute meaningfully.</div>
         </div>
       </div>
     </Window>
