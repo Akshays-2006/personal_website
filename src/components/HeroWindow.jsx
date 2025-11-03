@@ -4,7 +4,7 @@ import PixelMorph from './PixelMorph'
 
 export default function HeroWindow(){
   return (
-    <Window title="Akshay — Home">
+    <Window title="Akshay -- Home">
       <div className="flex items-center gap-6">
         <div style={{width:160}}>
           <img

@@ -11,7 +11,7 @@ export default function App(){
       <div className="min-h-screen flex items-center justify-center px-6">
         <div className="w-full max-w-3xl">
           <div className="mb-6 flex justify-between items-center">
-            <div className="text-sm text-gray-400">Portfolio — Akshay S</div>
+            <div className="text-sm text-gray-400">Portfolio -- Akshay S</div>
             <div className="space-x-3">
               <button onClick={()=>setOpen('hero')} className="text-gray-400 hover:text-white">Home</button>
               <button onClick={()=>setOpen('projects')} className="text-gray-400 hover:text-white">Projects</button>
@@ -31,7 +31,7 @@ export default function App(){
       </div>
 
       <footer className="fixed bottom-6 left-1/2 transform -translate-x-1/2 text-xs text-gray-500">
-        © {new Date().getFullYear()} Akshay S — Akshays-2006
+        © {new Date().getFullYear()} Akshay S -- Akshays-2006
       </footer>
     </div>
   )
