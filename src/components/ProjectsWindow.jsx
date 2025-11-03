@@ -2,9 +2,8 @@ import React from 'react'
 import Window from './Window'
 
 const projects = [
-  {title:'Document Categorizer', stack:'Python, ML, LLMs', link:'https://github.com/Akshays-2006/feedback-doc-categorizer'},
-  {title:'Retrieval Transformer', stack:'PyTorch, HF', link:'https://github.com/Akshays-2006/retrieval-transformer'},
-  {title:'Supplychain Dashboard', stack:'React, Flask', link:'https://github.com/Akshays-2006/supplychain-dashboard'},
+  {title:'Parameter-Efficient Fine-Tuning of Vision Transformers with LoRA Adapters', stack:'Python, Pytorch, ML, LLMs', link:'https://github.com/Akshays-2006/Vit_LoRA_Ablation_Study'},
+  {title:'Comprehensive Study on RNN, LSTM, Transformers', stack:'PyTorch, HF, Python', link:'https://colab.research.google.com/drive/1ysguSgUBsTVUVqvMB5cEgHwUw8wbRXZc?usp=sharing'},
 ]
 
 export default function ProjectsWindow(){
