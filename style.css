@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #050507;
+    color: #e7e7e7;
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 60px;
+    background: #0b0b0d;
+    position: sticky;
+    top: 0;
+}
+
+.navbar a {
+    margin-left: 20px;
+    color: #9a9fa8;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+.hero-text h1 {
+    font-size: 58px;
+    margin: 0;
+}
+
+.subtitle {
+    margin-top: 10px;
+    color: #9a9fa8;
+    max-width: 480px;
+}
+
+.hero-img img {
+    width: 300px;
+    border-radius: 12px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+/* BUTTONS */
+.primary-btn {
+    padding: 10px 20px;
+    background: #7c5cff;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.secondary-btn {
+    padding: 10px 20px;
+    border: 1px solid #7c5cff;
+    color: #7c5cff;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+
+.project-card {
+    padding: 20px;
+    background: #111216;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #0b0b0d;
+    margin-top: 40px;
+    color: #777;
+}
